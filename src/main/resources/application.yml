@@ -1,0 +1,37 @@
+
+server:
+  port: 8080
+  servlet:
+    context-path: /
+  undertow:
+    threads:
+      io: 16
+      worker: 256
+    buffer-size: 1024
+    direct-buffers: true
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+# Veritaban? ba?lant? bilgileri
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/finalcase
+    username: postgres
+    password: 123456
+
+  # Veritaban? s?r?c?s? ve platformu
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+    # Hibernate otomatik tablo g?ncellemelerini a?
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: DEBUG
+

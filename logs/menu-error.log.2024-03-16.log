@@ -1,0 +1,8 @@
+2024-03-16 11:30:27.499 [main] ERROR com.nurali.finalcase.service.impl.UserServiceImpl - Error occurred while creating user: Cannot invoke "com.nurali.finalcase.dto.UserDTO.getFirstName()" because "userDTO" is null
+2024-03-16 11:32:19.850 [main] ERROR com.nurali.finalcase.service.impl.UserServiceImpl - Error occurred while creating user: Cannot invoke "com.nurali.finalcase.dto.UserDTO.getFirstName()" because "userDTO" is null
+2024-03-16 11:38:00.698 [main] ERROR com.nurali.finalcase.service.impl.UserServiceImpl - Error occurred while creating user: Cannot invoke "com.nurali.finalcase.dto.UserDTO.getFirstName()" because "userDTO" is null
+2024-03-16 11:46:20.376 [main] ERROR com.nurali.finalcase.service.impl.UserServiceImpl - Error occurred while creating user: Cannot invoke "com.nurali.finalcase.dto.UserDTO.getFirstName()" because "userDTO" is null
+2024-03-16 11:51:45.114 [main] ERROR com.nurali.finalcase.service.impl.UserServiceImpl - Error occurred while creating user: UserDTO cannot be null
+2024-03-16 11:59:31.448 [main] ERROR com.nurali.finalcase.service.impl.UserServiceImpl - Error occurred while creating user: UserDTO cannot be null
+2024-03-16 12:00:28.175 [main] ERROR com.nurali.finalcase.service.impl.UserServiceImpl - Error occurred while creating user: UserDTO cannot be null
+2024-03-16 12:02:22.061 [main] ERROR com.nurali.finalcase.service.impl.UserServiceImpl - Error occurred while creating user: UserDTO cannot be null
