@@ -19,7 +19,7 @@ public class SwaggerConfig {
                         .license(new License().name("Apache 2.0").url("http://springdoc.org")))
                 .externalDocs(new ExternalDocumentation()
                         .description("n11 Talent-hub Final Project ")
-                        .url("https://springshop.wiki.github.org/docs"));
+                        .url("https://github.com/Safari0928/finalcase"));
     }
 
 }
